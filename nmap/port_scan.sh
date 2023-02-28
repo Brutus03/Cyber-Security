@@ -1,6 +1,6 @@
 #!/bin/bash
 
-function target_setting ()
+function target_setting ($1)
 {
   if [[ -z "$1" ]]
   then
